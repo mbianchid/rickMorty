@@ -6,7 +6,7 @@ export const CharacterCard: React.FC<CharacterCardProps> = (
   const { character } = props;
   return (
     <div>
-      {character.id}-{character.name}
+      {character.id}-{character.name}-{character.image}
     </div>
   );
 };
